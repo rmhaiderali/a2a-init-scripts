@@ -101,7 +101,7 @@ function_template = Template(
     f"""
 
 {
-    "def {{ name }}"
+    "async def {{ name }}"
     "("
     "{% for arg in args %}"
     "{{ arg.name }}{% if arg.suffix %}{{ arg.suffix }}{% endif %}: {{ arg.type }}"
